@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Sistema de Usuarios</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -25,12 +25,12 @@
             <?php if(Route::has('login')): ?>
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     <?php if(auth()->guard()->check()): ?>
-                        <a href="<?php echo e(url('/home')); ?>" class="text-sm text-gray-700 underline">Home</a>
+                        <a href="<?php echo e(url('/home')); ?>" class="text-sm text-gray-700 underline">Inicio</a>
                     <?php else: ?>
-                        <a href="<?php echo e(route('login')); ?>" class="text-sm text-gray-700 underline">Log in</a>
+                        <a href="<?php echo e(route('login')); ?>" class="text-sm text-gray-700 underline">Iniciar Sesion</a>
 
                         <?php if(Route::has('register')): ?>
-                            <a href="<?php echo e(route('register')); ?>" class="ml-4 text-sm text-gray-700 underline">Register</a>
+                            <a href="<?php echo e(route('register')); ?>" class="ml-4 text-sm text-gray-700 underline">Registrar</a>
                         <?php endif; ?>
                     <?php endif; ?>
                 </div>
