@@ -43,7 +43,7 @@
                         <?php if(auth()->guard()->guest()): ?>
                             <?php if(Route::has('login')): ?>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo e(route('login')); ?>"><?php echo e(__('Ingresar')); ?></a>
+                                    <a class="nav-link" href="<?php echo e(route('login')); ?>"><?php echo e(__('Iniciar Sesion')); ?></a>
                                 </li>
                             <?php endif; ?>
 

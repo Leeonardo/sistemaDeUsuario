@@ -1,3 +1,5 @@
+
+
 <?php $__env->startSection('content'); ?>
 <div class="container">
     <div class="row justify-content-center">
@@ -81,7 +83,7 @@ unset($__errorArgs, $__bag); ?>
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    <?php echo e(__('Login')); ?>
+                                    <?php echo e(__('Ingresar')); ?>
 
                                 </button>
 
